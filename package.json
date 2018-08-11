@@ -1,0 +1,32 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "react boilerplate project was created manually",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "webpack",
+    "boilerplate",
+    "cs6"
+  ],
+  "author": "angus qing",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7"
+  }
+}
