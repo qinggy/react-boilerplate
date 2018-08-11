@@ -1,5 +1,5 @@
 # react-boilerplate project 
-### record how to create a react project manually with redux webpack etc. tecnology
+### record the procedure how to create a react project manually with redux webpack etc. tecnology  --angus qing
 
 > npm初始化package.json
 
