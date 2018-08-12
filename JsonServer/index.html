@@ -1,0 +1,80 @@
+<html>
+
+<head>
+  <title>JSON Server</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+  <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container" style="display:flex;">
+      <img src='./images/json.png' alt='logo' />
+      <h3 style="vertical-align: middle; margin: 18px;">JSON Server</h3>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <h4>Congrats!</h4>
+      <p>
+        You're successfully running JSON Server
+        <br> ✧*｡٩(ˊᗜˋ*)و✧*｡
+      </p>
+
+      <div id="resources"></div>
+
+      <p>
+        To access and modify resources, you can use any HTTP method
+        <br>
+        <div class="method">
+          <code style="color:#0f6ab4;font-weight:bold;">GET</code>
+          <div class="method-color"></div>
+        </div>
+        <div class="method">
+          <code style="color:#10a54a;font-weight:bold;">POST</code>
+          <div class="method-color" style="margin-left:34px;border-color:#10a54a;"></div>
+        </div>
+        <div class="method">
+          <code style="color:#c5862b;font-weight:bold;">PUT</code>
+          <div class="method-color" style="border-color:#c5862b;"></div>
+        </div>
+        <div class="method">
+          <code style="color:#D38042;font-weight:bold;">PATCH</code>
+          <div class="method-color" style="margin-left:28px;border-color:#D38042;"></div>
+        </div>
+        <div class="method">
+          <code style="color:#a41e22;font-weight:bold;">DELETE</code>
+          <div class="method-color" style="margin-left:22px;border-color:#a41e22;"></div>
+        </div>
+        <div class="method">
+          <code style="color:#ffd20f;font-weight:bold;">OPTIONS</code>
+          <div class="method-color" style="margin-left:15px;border-color:#ffd20f;"></div>
+        </div>
+      </p>
+
+      <div id="custom-routes"></div>
+
+      <h4>Documentation</h4>
+      <p>
+        View
+        <a href="https://github.com/typicode/json-server">README</a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        To replace this page, create a
+        <code>./JsonServer/index.html</code> file.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/mithril/mithril.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

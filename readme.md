@@ -84,6 +84,20 @@ license: (ISC)
 > 创建并配置webpack.config.js
 
 ```
+const path = require('path');
+const webpack = require('webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+const getPath = p => path.resolve(__dirname, p);
+
+const isDev = process.env.NODE_ENV === 'dev';
+
+module.exports = {
+  entry:{},
+  output:{},
+  module:{},
+  resolve:{},
+  plugins:{}
+};
 
 ```

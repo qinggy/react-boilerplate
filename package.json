@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "react boilerplate project was created manually",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "react",
     "redux",
@@ -16,17 +13,30 @@
   "author": "angus qing",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2"
-  },
-  "devDependencies": {
-    "babel": "^6.23.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-3": "^6.24.1",
-    "html-webpack-plugin": "^3.2.0",
-    "path": "^0.12.7"
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-hot-loader": "^4.3.4",
+    "react-transform": "0.0.3",
+    "react-transform-hmr": "^1.0.4",
+    "webpack": "^4.16.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "set NODE_ENV=production && webpack -p --config ./build/webpack.config.js",
+    "debug": "node ./build/server.dev.js",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/. --ext .js,.jsx --fix --quiet",
+    "JsonServer": "json-server --watch --port 8014 ./JsonServer/db/db.json --routes ./JsonServer/db/routes.json"
+  },
+  "port": 8814,
+  "devDependencies": {
+    "json-server": "^0.14.0",
+    "path": "^0.12.7",
+    "webpack-dev-server": "^3.1.5"
   }
 }

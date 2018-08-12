@@ -1,0 +1,4 @@
+{
+  "/TicketApi/api/v1/ticket/*": "/$1",
+  "/filters/unreadcount?filterIds=:filterIds": "/unreadcount?filterIds=:filterIds"
+}
